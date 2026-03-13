@@ -1,0 +1,31 @@
+{
+  "name": "python-backend-plugin",
+  "version": "1.0.0",
+  "description": "A Python backend developer plugin with FastAPI scaffolding, code review, security auditing, auto-formatting, and GitHub integration.",
+  "author": "your-team",
+  "license": "MIT",
+  "components": {
+    "commands": [
+      "commands/review-module.md",
+      "commands/generate-endpoint.md",
+      "commands/generate-test.md"
+    ],
+    "agents": [
+      "agents/security-auditor.yaml"
+    ],
+    "skills": [
+      "skills/python-best-practices/SKILL.md"
+    ],
+    "hooks": [
+      "hooks/hooks.json"
+    ]
+  },
+  "claudeCodeMinVersion": "1.5.0",
+  "tags": [
+    "python",
+    "fastapi",
+    "pytest",
+    "pydantic",
+    "backend"
+  ]
+}
