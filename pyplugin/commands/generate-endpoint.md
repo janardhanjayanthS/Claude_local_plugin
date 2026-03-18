@@ -13,8 +13,11 @@ Given a resource name and HTTP method, generate:
 ## Usage
 
 ```
-/generate-endpoint <resource> <method>
+/generate-endpoint <resource> <method> <purpose>
 ```
+
+### Rules:
+- **purpose**: is the how the endpoint will be used
 
 ### Examples
 ```
